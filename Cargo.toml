@@ -1,0 +1,15 @@
+[package]
+name = "halo2-fibosquare"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name="fibosquare"
+path="src/fibosquare.rs"
+
+[dependencies]
+halo2_proofs = "0.1.0"
+
