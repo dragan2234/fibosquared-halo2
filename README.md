@@ -16,8 +16,10 @@ Oh I think halo2 book example uses use group::ff::Field; for representing finite
 
 So this should be good
 
-
 Table:
 | a  | b | c | selector | input |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1 | 1 | 2 | 1 | 1 |
+| 1 | 2 | 5 | 1 | 1 |
+| 2 | 5 | 29 | 1 | 29 |
+29 |
